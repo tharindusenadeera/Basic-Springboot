@@ -14,6 +14,6 @@ public class HelloController {
 
     @PostMapping("/hello")
     public String helloPost(@RequestBody String name) {
-    return "Hello" + name;
+    return "Hello " + name + "!";
     }
 }
